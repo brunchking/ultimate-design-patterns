@@ -1,6 +1,6 @@
 package com.ultimate.patterns.decorator;
 
-public class WeaponDecorator implements Weapon{
+public abstract class WeaponDecorator implements Weapon{
 	private int hitPoint;
 	protected Weapon weapon;
 
